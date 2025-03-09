@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Зоомир - Собаки</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <img src="img/photo_5244564276176348893_x.png" alt="Логотип Онлайн Зоомагазина" class="logo">
+        <h1>Онлайн Зоомагазин</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Главная</a></li>
+                <li><a href="catalog.html">Каталог</a></li>
+                <li><a href="stock.html">Акции</a></li>
+                <li><a href="contacts.html">Контакты</a></li>
+                <li><a href="about.html">О нас</a></li>
+                <li><a href="animals.html">Животные</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <a href="animals.html" class="back-button">Назад</a>
+        <section class="animals-section">
+            <h2>Товары для собак</h2>
+
+            <div class="animals-grid">
+                <!-- Карточка товара 1 -->
+                <div class="product-card">
+                    <img src="img/6945957762.jpg" alt="Корм для собак">
+                    <h3>Супер-премиум корм для собак "Royal Canin"</h3>
+                    <p>Сбалансированный корм с высоким содержанием белка и клетчатки для активных собак. </p>
+                    <p class="price">1500 рублей</p>
+                    <button onclick="addToCart('Корм для собак')">В корзину</button>
+                </div>
+
+                <!-- Карточка товара 2 -->
+                <div class="product-card">
+                    <img src="img/733320_550.jpg" alt="Игрушка для собак">
+                    <h3>Игрушка для собак "Жующая кость"</h3>
+                    <p>Прочная игрушка из натуральной кожи для удовлетворения потребностей в жевании. </p>
+                    <p class="price">500 рублей</p>
+                    <button onclick="addToCart('Игрушка для собак')">В корзину</button>
+                </div>
+
+                <!-- Карточка товара 3 -->
+                <div class="product-card">
+                    <img src="img/i (12).webp" alt="Ошейник для собак">
+                    <h3>Ошейник для собак с регулируемым размером</h3>
+                    <p>Комфортный и прочный ошейник с ярким дизайном. Изготовлен из качественных материалов, не раздражает кожу.</p>
+                    <p class="price">300 рублей</p>
+                    <button onclick="addToCart('Ошейник для собак')">В корзину</button>
+                </div>
+
+                <!-- Карточка товара 4 -->
+                <div class="product-card">
+                    <img src="img/4d4a6a36c53635683a24bce55042955ebc639935_original.jpeg" alt="Поводок для собак">
+                    <h3>Поводок для собак</h3>
+                    <p>Прочный и удобный поводок, который подходит для прогулок с собаками любых пород.</p>
+                    <p class="price">750 рублей</p>
+                    <button onclick="addToCart('Поводок для собак')">В корзину</button>
+                </div>
+
+                <!-- Карточка товара 5 -->
+                <div class="product-card">
+                    <img src="img/2_64fe877bcb7e4.jpeg" alt="Миска для собак">
+                    <h3>Миска для собак</h3>
+                    <p>Керамическая миска для собак с антискользящим дном.</p>
+                    <p class="price">500 рублей</p>
+                    <button onclick="addToCart('Миска для собак')">В корзину</button>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>   
+        <div class="footer-content">   
+            <div class="footer-section links">   
+                <h3>Полезные ссылки</h3>   
+                <ul>   
+                    <li><a href="#">Политика конфиденциальности</a></li>   
+                    <li><a href="#">Условия использования</a></li>   
+                    <li><a href="#">Часто задаваемые вопросы</a></li>   
+                    <li><a href="contacts.html">Контакты</a></li>   
+                </ul>   
+            </div>   
+            <div class="footer-section contact">   
+                <h3>Контактная информация</h3>   
+                <p>Email: zoomagazin@mail.ru</p>   
+                <p>Телефон: 8 905 357 11 87</p>   
+            </div>   
+        </div>   
+        <div class=
+"footer-bottom">   
+            <p>&copy; 2024 Онлайн Зоомагазин. Все права защищены.</p>   
+        </div>   
+    </footer>   
+
+    <script>  
+        function addToCart(productName) {  
+            alert(productName + " добавлен в корзину!");  
+        }  
+    </script> 
+
+</body>
+</html>

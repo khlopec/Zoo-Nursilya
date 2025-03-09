@@ -1,0 +1,78 @@
+<!DOCTYPE html>  
+<html lang="ru">   
+<head>   
+    <meta charset="UTF-8">   
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">   
+    <title>Акции - Онлайн Зоомагазин</title>   
+    <link rel="stylesheet" href="style.css">   
+</head>   
+<body>   
+    <header>   
+        <img src="img/photo_5244564276176348893_x.png" alt="Логотип Онлайн Зоомагазина" class="logo">   
+        <h1>Онлайн Зоомагазин</h1>   
+        <nav>   
+            <ul>
+                <li><a href="index.html">Главная</a></li>
+                <li><a href="catalog.html">Каталог</a></li>
+                <li><a href="stock.html">Акции</a></li>
+                <li><a href="contacts.html">Контакты</a></li>
+                <li><a href="about.html">О нас</a></li>
+                <li><a href="animals.html">Животные</a></li>
+            </ul>   
+        </nav>   
+    </header>   
+    <main>   
+        <h2 class="promotions-title">Текущие акции</h2>
+<section class="promotions">       
+    <div class="promotion-item">       
+        <img src="img/prohvost_500g_d_sobak_myasnoe_assorti_auto_auto_jpg_5_80.jpg" alt="Скидка 20% на корм для собак" class="promotion-image">       
+        <h3>Скидка 20% на корм для собак!</h3>       
+        <p>При покупке любого корма для собак вы получаете скидку 20%. Акция действует до конца месяца.</p>       
+        <button onclick="addToCart('Корм для собак со скидкой')">Купить</button>     
+    </div>       
+    <div class="promotion-item">       
+        <img src="img/22869.750x0.jpg" alt="Купи 2 игрушки - получи третью в подарок" class="promotion-image">       
+        <h3>Купи 2 игрушки - получи третью в подарок!</h3>       
+        <p>При покупке двух игрушек для животных третья будет бесплатной. Не упустите шанс!</p>       
+        <button onclick="addToCart('Игрушка для животных со скидкой')">Купить</button>     
+    </div>       
+    <div class="promotion-item">       
+        <img src="img/3d1bdc743ae2085251d1309a1ed983b7.jpg" alt="Скидка 15% на корма для кошек" class="promotion-image">       
+        <h3>Скидка 15% на корма для кошек!</h3>       
+        <p>Только в этом месяце на корма для кошек действует скидка 15%!</p>       
+        <button onclick="addToCart('Корм для кошек со скидкой')">Купить</button>     
+    </div>       
+</section>
+        
+        
+    </main>   
+    <footer>   
+        <div class="footer-content">   
+            <div class="footer-section links">   
+                <h3>Полезные ссылки</h3>   
+                <ul>   
+                    <li><a href="#">Политика конфиденциальности</a></li>   
+                    <li><a href="#">Условия использования</a></li>   
+                    <li><a href="#">Часто задаваемые вопросы</a></li>   
+                    <li><a href="contacts.html">Контакты</a></li>   
+                </ul>   
+            </div>   
+            <div class="footer-section contact">   
+                <h3>Контактная информация</h3>   
+                <p>Email: zoomagazin@mail.ru</p>   
+                <p>Телефон: 8 905 357 11 87</p>   
+            </div>   
+        </div>   
+        <div class=
+"footer-bottom">   
+            <p>&copy; 2024 Онлайн Зоомагазин. Все права защищены.</p>   
+        </div>   
+    </footer>   
+
+    <script>  
+        function addToCart(productName) {  
+            alert(productName + " добавлен в корзину!");  
+        }  
+    </script>  
+</body>   
+</html>

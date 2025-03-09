@@ -1,0 +1,92 @@
+<!DOCTYPE html>  
+<html lang="ru">   
+<head>   
+    <meta charset="UTF-8">   
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">   
+    <title>Каталог - Онлайн Зоомагазин</title>  
+    <link rel="stylesheet" href="style.css">  
+    <script> 
+        function addToCart(productName) { 
+            alert(productName + " добавлен в корзину!"); 
+        } 
+    </script> 
+</head>  
+<body>  
+    <header>  
+        <img src="img/photo_5244564276176348893_x.png" alt="Логотип Онлайн Зоомагазина" class="logo">  
+        <h1>Онлайн Зоомагазин</h1>  
+        <nav>  
+            <ul>
+                <li><a href="index.html">Главная</a></li>
+                <li><a href="catalog.html">Каталог</a></li>
+                <li><a href="stock.html">Акции</a></li>
+                <li><a href="contacts.html">Контакты</a></li>
+                <li><a href="about.html">О нас</a></li>
+                <li><a href="animals.html">Животные</a></li>
+            </ul>  
+        </nav>  
+    </header>  
+    <main>  
+        <h2>Каталог товаров</h2>  
+        <section class="product-grid">  
+            <div class="product">  
+                <img src="img/i (2).webp" alt="Корм для собак">  
+                <h3>Корм для собак</h3>  
+                <p>Цена: 500 руб.</p>  
+                <button onclick="addToCart('Корм для собак')">Купить</button>  
+            </div>  
+            <div class="product">  
+                <img src="img/32ac2125a2f23daeb2ebaef3dcea41bc.png" alt="Корм для кошек">  
+                <h3>Корм для кошек</h3>  
+                <p>Цена: 450 руб.</p>  
+                <button onclick="addToCart('Корм для кошек')">Купить</button>  
+            </div>  
+            <div class="product">  
+                <img src="img/i (3).webp" alt="Корм для рыб">  
+                <h3>Корм для рыб</h3>  
+                <p>Цена: 300 руб.</p>  
+                <button onclick="addToCart('Корм для рыб')">Купить</button>  
+            </div>  
+            <div class="product">  
+                <img src="img/i (4).webp" alt="Игрушка для собак">  
+                <h3>Игрушка для собак</h3>  
+                <p>Цена: 150 руб.</p>  
+                <button onclick="addToCart('Игрушка для собак')">Купить</button>  
+            </div>  
+            <div class="product">  
+                <img src="img/1705247758112-b96be792c3f2493c94b9b0a9c28b4e9a-goods.webp" alt="Игрушка для кошек">  
+                <h3>Игрушка для кошек</h3>  
+                <p>Цена: 180 руб.</p>  
+                <button onclick="addToCart('Игрушка для кошек')">Купить</button>  
+            </div>  
+            <div class="product">  
+                <img src="img/i (11).webp" alt="Кровать">  
+                <h3>Кровать </h3>  
+                <p>Цена: 800 руб.</p>  
+                <button onclick="addToCart('Кровать')">Купить</button>  
+            </div>   
+        </section>  
+    </main>  
+    <footer>  
+        <div class="footer-content">  
+            <div class="footer-section links"> 
+                <h3>Полезные ссылки</h3>  
+                <ul>  
+                    <li><a href="#">Политика конфиденциальности</a></li>  
+                    <li><a href="#">Условия использования</a></li>  
+                    <li><a href="#">Часто задаваемые вопросы</a></li>  
+                    <li><a href="#">Контакты</a></li>  
+                </ul>  
+            </div>  
+            <div class="footer-section contact">  
+                <h3>Контактная информация</h3>  
+                <p>Email: zoomagazin@mail.ru</p>  
+                <p>Телефон: 8 905 357 11 87</p>  
+            </div>  
+        </div>  
+        <div class="footer-bottom">  
+            <p>&copy; 2024 Онлайн Зоомагазин. Все права защищены.</p>  
+        </div>  
+    </footer>  
+</body>  
+</html>
