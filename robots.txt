@@ -1,3 +1,3 @@
 USER-AGENT: *
 Allow: /
-Sitemap: https://Nursilya2005.github.io/animal/sitemap.xml
+Sitemap: https://Nursilya2005.github.io/ZooAnimal/sitemap.xml
